@@ -1,0 +1,11 @@
+[package]
+name = "spandoc-example"
+version = "0.1.0"
+authors = ["Jane Lusby <jlusby@yaah.dev>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tracing = "0.1.11"
+spandoc = { git = "https://github.com/yaahc/spandoc" }
